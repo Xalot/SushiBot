@@ -1,0 +1,23 @@
+{
+  "name": "SushiBot",
+  "version": "1.0.0",
+  "description": "Chat bot de Whatsapp simple que usa Venom-Bot para dar información simple",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: idk no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Xalot",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "venom-bot": "^5.0.19"
+  }
+}
+
