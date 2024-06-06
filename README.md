@@ -21,14 +21,14 @@ cd sushibot
 
 npm install
 
-Ejecución
+## Ejecución
 
-Para iniciar el bot en modo desarrollo, ejecuta:
+- Para iniciar el bot en modo desarrollo, ejecuta:
 
 npm run dev
 
 Estructura del Proyecto
-
+```bash
 SushiBot/
 ├── node_modules/
 ├── src/
@@ -42,17 +42,19 @@ SushiBot/
 ├── package.json
 ├── package-lock.json
 ├── README.md
+```
 
-Uso
+### Uso
 
-1.Abre tu navegador y navega a http://localhost:3000/chatbot.
-2.Escanea el código QR con tu aplicación de WhatsApp para iniciar sesión.
-3.Envía mensajes para interactuar con el bot y obtener información del menú.
+1. Abre tu navegador y navega a http://localhost:3000/chatbot.
+2. Escanea el código QR con tu aplicación de WhatsApp para iniciar sesión.
+3. Envía mensajes para interactuar con el bot y obtener información del menú.
 
-Contribuciones
+
+### Contribuciones
 
 Las contribuciones son bienvenidas. Por favor, abre un "issue" para discutir cualquier cambio que desees realizar.
 
-Licencia
+### Licencia
 
 MIT
